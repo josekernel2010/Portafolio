@@ -1,42 +1,45 @@
-/*
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-*/
 
-/*
 #rueda {
   font-size: 3em;
   font-weight: bold;
   text-align: center;
   color: #fff;
-  background-color: #bdbcbc;
+  /* background-color: #000;*/
 }
-*/
+
+body {
+  background-image: url(../image/fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 330vh;
+}
 
 #rueda {
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   font-family: arial;
   margin-top: 80px;
-  color: rgb(245, 52, 52);
-  text-shadow: 0px 0px 6px rgb(109, 51, 88);
+  color: rgb(255, 0, 191);
+  /*text-shadow: 0px 0px 6px black;*/
 }
 
 .content-all {
   width: 210px;
   margin: auto;
-  perspective: 700px;
+  perspective: 800px;
   position: relative;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .content-carrousel {
   width: 100%;
   position: absolute;
-  animation: rotar 30s infinite linear;
+  animation: rotar 20s infinite linear;
   transform-style: preserve-3d;
 }
 
