@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+#pol,
+p {
+  font-size: 1.3rem;
+}
+
 #sa {
   color: #f81a43;
 }
@@ -47,9 +52,9 @@ body {
 .content-all {
   width: 210px;
   margin: auto;
-  perspective: 800px;
+  perspective: 750px;
   position: relative;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .content-carrousel {
@@ -66,10 +71,11 @@ body {
 
 .content-carrousel figure {
   width: 100%;
-  height: 120px;
+  height: 110px;
   overflow: hidden;
   position: absolute;
-  box-shadow: 0px 0px 20px 0px black;
+  box-shadow: 0px 0px 10px hsla(318, 52%, 42%, 0.5);
+  border-radius: 10px;
   transition: all 300ms;
 }
 
