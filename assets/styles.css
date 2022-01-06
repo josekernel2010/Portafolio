@@ -4,14 +4,30 @@
   box-sizing: border-box;
 }
 
+#sa {
+  color: #f81a43;
+}
+
+h1,
+#pre {
+  font-size: 2.5em;
+}
+
 #rueda {
   font-size: 3em;
   font-weight: bold;
   text-align: center;
   color: #fff;
-  /* background-color: #000;*/
+  background-color: #000;
 }
 
+#rueda1 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  /*background-color: #000;*/
+  color: #000;
+}
 body {
   background-image: url(../image/fondo.jpg);
   background-position: center;
@@ -39,7 +55,7 @@ body {
 .content-carrousel {
   width: 100%;
   position: absolute;
-  animation: rotar 20s infinite linear;
+  animation: rotar 30s infinite linear;
   transform-style: preserve-3d;
 }
 
