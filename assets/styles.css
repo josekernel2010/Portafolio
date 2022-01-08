@@ -50,9 +50,9 @@ body {
 }
 
 .content-all {
-  width: 185px;
+  width: 187px;
   margin: auto;
-  perspective: 630px;
+  perspective: 750px;
   position: relative;
   margin-top: 30px;
 }
