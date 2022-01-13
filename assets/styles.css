@@ -16,7 +16,7 @@ p {
 
 #pre {
   font-size: 2.6em;
-  animation: azul-neon 2s infinite alternate;
+  /* animation: azul-neon 2s infinite alternate;*/
 }
 /*
 @keyframes azul-neon {
