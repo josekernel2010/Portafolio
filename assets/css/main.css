@@ -2610,6 +2610,12 @@ input[type="radio"] + label:before {
   font-size: 1.3em !important;
 }
 
+/*  */
+#social .icon.brands:before {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 2em !important;
+}
+
 .icon.major {
   width: 2.5em;
   height: 2.5em;
@@ -2903,7 +2909,12 @@ ul.icons {
 
 ul.icons li {
   display: inline-block;
-  padding: 0 0.8em 0 0;
+  padding: 0 1em 0 0;
+}
+
+#social ul.icons li {
+  display: inline-block;
+  padding: 0 3em 0 0;
 }
 
 ul.icons li:last-child {
