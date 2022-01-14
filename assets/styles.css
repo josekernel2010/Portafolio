@@ -11,10 +11,7 @@ p {
   font-size: 1.2rem;
 }
 
-#sa {
-  color: #fff;
-  animation: verde-neon 2.2s infinite alternate;
-}
+
 
 #pre {
   font-size: 2.6em;
@@ -46,6 +43,13 @@ p {
 */
 }
 
+
+
+#sa {
+  color: #fff;
+  animation: verde-neon 2.2s infinite alternate;
+}
+
 @keyframes verde-neon {
   0%,
   10%,
@@ -68,6 +72,8 @@ p {
   }
 }
 
+
+
 #rueda {
   font-size: 3em;
   font-weight: bold;
@@ -83,6 +89,7 @@ p {
   /*background-color: #000;*/
   /*color: #000;*/
 }
+
 body {
   background-image: url(../image/fondo.jpg);
   background-position: center;
