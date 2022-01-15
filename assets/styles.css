@@ -1,11 +1,3 @@
-/*
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-*/
-
 #pol,
 p {
   font-size: 1.2rem;
@@ -13,70 +5,15 @@ p {
 
 #pre {
   font-size: 2.6em;
-  animation: azul-neon 2s infinite alternate;
+  text-shadow: 9px 9px 18px #eb36a5, 3px 3px 5px #bb0b80, -3px -3px 5px #bb0b80,
+    -9px -9px 27px #eb36a5;
 }
 
-@keyframes azul-neon {
-  0%,
-  10%,
-  20%,
-  30%,
-  40%,
-  50%,
-  60%,
-  70%,
-  80%,
-  90%,
-  100% {
-    text-shadow: 9px 9px 18px #eb36a5, 3px 3px 5px #bb0b80,
-      -3px -3px 5px #bb0b80, -9px -9px 27px #eb36a5;
-  }
-  /*
-  10%,
-  15%,
-  60% {
-    text-shadow: none;
-  }
-}
-*/
+#sa {
+  text-shadow: 9px 9px 18px #2ecc71, 3px 3px 5px #2ecc71, -3px -3px 5px #2ecc71,
+    -9px -9px 27px #2ecc71;
 }
 
-.sa {
-  color: #fff;
-  animation: verde-neon 2.2s infinite alternate;
-}
-
-@keyframes verde-neon {
-  0%,
-  10%,
-  20%,
-  30%,
-  40%,
-  50%,
-  60%,
-  70%,
-  80%,
-  90%,
-  100% {
-    text-shadow: 9px 9px 18px #2ecc71, 3px 3px 5px #2ecc71,
-      -3px -3px 5px #2ecc71, -9px -9px 27px #2ecc71;
-  }
-  10%,
-  15%,
-  60% {
-    text-shadow: none;
-  }
-}
-
-/*
-#rueda {
-  font-size: 3em;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  background-color: #000;
-}
-*/
 #rueda1 {
   font-size: 3em;
   font-weight: bold;
@@ -84,26 +21,6 @@ p {
   /*background-color: #000;*/
   /*color: #000;*/
 }
-
-/*
-body {
-  background-image: url(../image/fondo.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 330vh;
-}
-*/
-
-/*
-#rueda {
-  text-align: center;
-  font-size: 50px;
-  font-family: arial;
-  margin-top: 80px;
-  color: rgb(255, 0, 191);
-  text-shadow: 0px 0px 6px black;
-}
-*/
 
 .content-all {
   width: 187px;
@@ -192,3 +109,64 @@ body {
     transform: rotateY(360deg);
   }
 }
+
+/*
+#pre {
+  font-size: 2.6em;
+  animation: azul-neon 2s infinite alternate;
+}
+
+@keyframes azul-neon {
+  0%,
+  10%,
+  20%,
+  30%,
+  40%,
+  50%,
+  60%,
+  70%,
+  80%,
+  90%,
+  100% {
+    text-shadow: 9px 9px 18px #eb36a5, 3px 3px 5px #bb0b80,
+      -3px -3px 5px #bb0b80, -9px -9px 27px #eb36a5;
+  }
+  /*
+  10%,
+  15%,
+  60% {
+    text-shadow: none;
+  }
+}
+
+}
+*/
+
+/*
+#sa {
+  
+  animation: verde-neon 2.2s infinite alternate;
+}
+
+@keyframes verde-neon {
+  0%,
+  10%,
+  20%,
+  30%,
+  40%,
+  50%,
+  60%,
+  70%,
+  80%,
+  90%,
+  100% {
+    text-shadow: 9px 9px 18px #2ecc71, 3px 3px 5px #2ecc71,
+      -3px -3px 5px #2ecc71, -9px -9px 27px #2ecc71;
+  }
+  10%,
+  15%,
+  60% {
+    text-shadow: none;
+  }
+}
+*/
