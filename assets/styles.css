@@ -11,8 +11,6 @@ p {
   font-size: 1.2rem;
 }
 
-
-
 #pre {
   font-size: 2.6em;
   animation: azul-neon 2s infinite alternate;
@@ -43,9 +41,7 @@ p {
 */
 }
 
-
-
-#sa {
+.sa {
   color: #fff;
   animation: verde-neon 2.2s infinite alternate;
 }
@@ -72,8 +68,7 @@ p {
   }
 }
 
-
-
+/*
 #rueda {
   font-size: 3em;
   font-weight: bold;
@@ -81,7 +76,7 @@ p {
   color: #fff;
   background-color: #000;
 }
-
+*/
 #rueda1 {
   font-size: 3em;
   font-weight: bold;
@@ -90,21 +85,25 @@ p {
   /*color: #000;*/
 }
 
+/*
 body {
   background-image: url(../image/fondo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 330vh;
 }
+*/
 
+/*
 #rueda {
   text-align: center;
   font-size: 50px;
   font-family: arial;
   margin-top: 80px;
   color: rgb(255, 0, 191);
-  /*text-shadow: 0px 0px 6px black;*/
+  text-shadow: 0px 0px 6px black;
 }
+*/
 
 .content-all {
   width: 187px;
