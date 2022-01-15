@@ -113,19 +113,19 @@ body {
   margin-top: 30px;
 }
 
-.content-carrousel {
+#content-carrousel {
   width: 100%;
   position: absolute;
   animation: rotar 30s infinite linear;
   transform-style: preserve-3d;
 }
 
-.content-carrousel:hover {
+#content-carrousel:hover {
   animation-play-state: paused;
   cursor: pointer;
 }
 
-.content-carrousel figure {
+#content-carrousel figure {
   width: 100%;
   height: 100px;
   overflow: hidden;
@@ -135,51 +135,51 @@ body {
   transition: all 300ms;
 }
 
-.content-carrousel figure:hover {
+#content-carrousel figure:hover {
   box-shadow: 0px 0px 0px 0px black;
   transition: all 300ms;
 }
 
-.content-carrousel figure:nth-child(1) {
+#content-carrousel figure:nth-child(1) {
   transform: rotateY(0deg) translateZ(300px);
 }
-.content-carrousel figure:nth-child(2) {
+#content-carrousel figure:nth-child(2) {
   transform: rotateY(36deg) translateZ(300px);
 }
-.content-carrousel figure:nth-child(3) {
+#content-carrousel figure:nth-child(3) {
   transform: rotateY(72deg) translateZ(300px);
 }
-.content-carrousel figure:nth-child(4) {
+#content-carrousel figure:nth-child(4) {
   transform: rotateY(108deg) translateZ(300px);
 }
-.content-carrousel figure:nth-child(5) {
+#content-carrousel figure:nth-child(5) {
   transform: rotateY(144deg) translateZ(300px);
 }
-.content-carrousel figure:nth-child(6) {
+#content-carrousel figure:nth-child(6) {
   transform: rotateY(180deg) translateZ(300px);
 }
-.content-carrousel figure:nth-child(7) {
+#content-carrousel figure:nth-child(7) {
   transform: rotateY(216deg) translateZ(300px);
 }
-.content-carrousel figure:nth-child(8) {
+#content-carrousel figure:nth-child(8) {
   transform: rotateY(252deg) translateZ(300px);
 }
-.content-carrousel figure:nth-child(9) {
+#content-carrousel figure:nth-child(9) {
   transform: rotateY(288deg) translateZ(300px);
 }
-.content-carrousel figure:nth-child(10) {
+#content-carrousel figure:nth-child(10) {
   transform: rotateY(324deg) translateZ(300px);
 }
-.content-carrousel figure:nth-child(11) {
+#content-carrousel figure:nth-child(11) {
   transform: rotateY(360deg) translateZ(300px);
 }
 
-.content-carrousel img {
+#content-carrousel img {
   width: 100%;
   transition: all 300ms;
 }
 
-.content-carrousel img:hover {
+#content-carrousel img:hover {
   transform: scale(1.2);
   transition: all 300ms;
 }
