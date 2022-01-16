@@ -3971,6 +3971,10 @@ p {
   font-size: 3em;
   font-weight: bold;
   text-align: center;
+
+  text-shadow: 9px 9px 18px #3a46eb, 3px 3px 5px #80a0f7, -3px -3px 5px #80a0f7,
+    -9px -9px 27px #3a46eb;
+  animation: verde-neon 1s infinite alternate-reverse;
 }
 
 .content-all {
