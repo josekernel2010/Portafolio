@@ -4005,7 +4005,7 @@ p {
   box-shadow: 8px 8px 10px #a3338180;
   border-radius: 15px;
   transition: all 300ms;
-  background: rgb(97, 92, 95);
+  /* background: rgb(97, 92, 95);*/
 }
 
 #content-carrousel figure:hover {
