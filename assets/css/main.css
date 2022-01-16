@@ -3957,6 +3957,29 @@ p {
 #sa {
   text-shadow: 9px 9px 18px #40eb3a, 3px 3px 5px #24a020, -3px -3px 5px #24a020,
     -9px -9px 27px #40eb3a;
+  animation: verde-neon 2.2s infinite alternate;
+}
+
+@keyframes verde-neon {
+  0%,
+  10%,
+  20%,
+  30%,
+  40%,
+  50%,
+  60%,
+  70%,
+  80%,
+  90%,
+  100% {
+    text-shadow: 9px 9px 18px #2ecc71, 3px 3px 5px #2ecc71,
+      -3px -3px 5px #2ecc71, -9px -9px 27px #2ecc71;
+  }
+  10%,
+  15%,
+  60% {
+    text-shadow: none;
+  }
 }
 
 #rueda1 {
