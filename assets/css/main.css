@@ -3957,7 +3957,7 @@ p {
 #sa {
   text-shadow: 9px 9px 18px #40eb3a, 3px 3px 5px #24a020, -3px -3px 5px #24a020,
     -9px -9px 27px #40eb3a;
-  animation: verde-neon 1s infinite alternate;
+  animation: verde-neon 1s infinite alternate-reverse;
 }
 
 @keyframes verde-neon {
@@ -3981,6 +3981,7 @@ p {
   perspective: 750px;
   position: relative;
   margin-top: 30px;
+  animation: none;
 }
 
 #content-carrousel {
