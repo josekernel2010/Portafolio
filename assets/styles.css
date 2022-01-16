@@ -1,3 +1,4 @@
+/*
 #pol,
 p {
   font-size: 1.2rem;
@@ -18,8 +19,8 @@ p {
   font-size: 3em;
   font-weight: bold;
   text-align: center;
-  /*background-color: #000;*/
-  /*color: #000;*/
+  
+  
 }
 
 .content-all {
