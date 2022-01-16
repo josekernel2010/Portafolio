@@ -4034,7 +4034,7 @@ p {
 }
 #content-carrousel figure:nth-child(7) {
   transform: rotateY(216deg) translateZ(300px);
-  background: #7995e0;
+  background: #3d9deb;
 }
 #content-carrousel figure:nth-child(8) {
   transform: rotateY(252deg) translateZ(300px);
@@ -4050,7 +4050,7 @@ p {
 
 #content-carrousel figure:nth-child(11) {
   transform: rotateY(360deg) translateZ(300px);
-  background: #fff;
+  background: #eee1e9;
 }
 
 #content-carrousel img {
