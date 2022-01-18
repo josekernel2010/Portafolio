@@ -3932,9 +3932,12 @@ body.is-preload #sidebar nav ul li {
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 600px) {
   #sidebar {
-    display: none;
+    display: flex;
+    font-size: 2vw;
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -3967,7 +3970,7 @@ p {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   #sa {
     animation: none;
   }
@@ -4068,6 +4071,9 @@ p {
 }
 
 @keyframes rotar {
+  from {
+    transform: rotateY(0deg);
+  }
   to {
     transform: rotateY(360deg);
   }
