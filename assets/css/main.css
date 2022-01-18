@@ -3937,7 +3937,7 @@ body.is-preload #sidebar nav ul li {
     display: flex;
     font-size: 2vw;
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
 }
 
