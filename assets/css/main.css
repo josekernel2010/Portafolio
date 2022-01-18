@@ -3957,12 +3957,19 @@ p {
 #sa {
   text-shadow: 9px 9px 18px #40eb3a, 3px 3px 5px #24a020, -3px -3px 5px #24a020,
     -9px -9px 27px #40eb3a;
+  animation: verde-neon 1.2s infinite alternate;
 }
 
 @keyframes verde-neon {
   50% {
-    color: #74e0e4;
+    color: #fff;
     text-shadow: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #sa {
+    animation: none;
   }
 }
 
