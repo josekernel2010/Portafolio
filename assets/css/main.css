@@ -2955,7 +2955,7 @@ ul.menu > li:first-child {
 @media screen and (max-width: 480px) {
   ul.menu > li {
     border-left: 0;
-    display: block;
+    display: flex;
     line-height: inherit;
     margin: 0.5em 0 0 0;
     padding-left: 0;
@@ -3950,6 +3950,7 @@ p {
 }
 
 #pre {
+  width: 100%;
   font-size: 2.6em;
   text-shadow: 9px 9px 18px #eb36a5, 3px 3px 5px #bb0b80, -3px -3px 5px #bb0b80,
     -9px -9px 27px #eb36a5;
@@ -3984,6 +3985,7 @@ p {
 }
 
 .content-all {
+  max-width: 100%;
   width: 187px;
   margin: auto;
   perspective: 750px;
