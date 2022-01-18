@@ -3934,10 +3934,8 @@ body.is-preload #sidebar nav ul li {
 
 @media screen and (max-width: 600px) {
   #sidebar {
-    display: flex;
-    font-size: 2vw;
-    width: 100%;
-    text-align: left;
+    display: none;
+    height: auto;
   }
 }
 
