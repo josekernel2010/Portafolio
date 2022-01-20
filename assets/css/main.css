@@ -2616,6 +2616,24 @@ input[type="radio"] + label:before {
   font-size: 2em !important;
 }
 
+.features .icon.brands:before {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 2em !important;
+  color: #fff !important;
+  background-color: #0f0f0e !important;
+  height: 100% !important;
+
+  line-height: 100% !important;
+  border-radius: 90% !important;
+  text-align: center !important;
+}
+
+#one .icon.brands:before {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 1.7em !important;
+  padding-left: 1.5em !important;
+}
+
 .icon.major {
   width: 2.5em;
   height: 2.5em;
@@ -2914,7 +2932,7 @@ ul.icons li {
 
 #social ul.icons li {
   display: inline-block;
-  padding: 0 3em 0 0;
+  padding: 0 2.8vw 0 0;
 }
 
 ul.icons li:last-child {

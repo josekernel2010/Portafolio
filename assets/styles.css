@@ -153,31 +153,20 @@ p {
 }
 */
 
+.video {
+  text-shadow: 9px 9px 18px #e22424, 3px 3px 5px #f36552, -3px -3px 5px #f36552,
+    -9px -9px 27px #e22424;
+}
 /*
 #sa {
   
   animation: verde-neon 2.2s infinite alternate;
 }
+*/
 
 @keyframes verde-neon {
-  0%,
-  10%,
-  20%,
-  30%,
-  40%,
-  50%,
-  60%,
-  70%,
-  80%,
-  90%,
-  100% {
-    text-shadow: 9px 9px 18px #2ecc71, 3px 3px 5px #2ecc71,
-      -3px -3px 5px #2ecc71, -9px -9px 27px #2ecc71;
-  }
-  10%,
-  15%,
-  60% {
+  50% {
+    color: #fff;
     text-shadow: none;
   }
 }
-*/
