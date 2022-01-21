@@ -2622,10 +2622,10 @@ input[type="radio"] + label:before {
   color: #fff !important;
   background-color: #0f0f0e !important;
   height: 100% !important;
-
   line-height: 100% !important;
   border-radius: 90% !important;
   text-align: center !important;
+  margin-bottom: 1em !important;
 }
 
 #one .icon.brands:before {
