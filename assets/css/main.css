@@ -2619,8 +2619,8 @@ input[type="radio"] + label:before {
 .features .icon.brands:before {
   font-family: "Font Awesome 5 Brands";
   font-size: 2em !important;
-  color: #fff !important;
-  background-color: #0f0f0e !important;
+  color: inherit !important;
+  /*background-color:  !important;*/
   height: 100% !important;
   line-height: 100% !important;
   border-radius: 90% !important;
