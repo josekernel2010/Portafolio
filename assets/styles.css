@@ -153,6 +153,11 @@ p {
 }
 */
 
+.button {
+  text-shadow: 9px 9px 18px #e22424, 3px 3px 5px #f36552, -3px -3px 5px #f36552,
+    -9px -9px 27px #e22424;
+}
+
 .video {
   text-shadow: 9px 9px 18px #e22424, 3px 3px 5px #f36552, -3px -3px 5px #f36552,
     -9px -9px 27px #e22424;

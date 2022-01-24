@@ -1935,7 +1935,7 @@ button,
   color: #ffffff !important;
   cursor: pointer;
   display: inline-block;
-  font-size: 0.6em;
+  font-size: 0.7em;
   font-weight: bold;
   height: calc(4.75em + 2px);
   letter-spacing: 0.25em;
@@ -4017,6 +4017,7 @@ p {
   width: 100%;
   position: absolute;
   animation: rotar 30s infinite linear;
+
   transform-style: preserve-3d;
 }
 
@@ -4090,9 +4091,6 @@ p {
 }
 
 @keyframes rotar {
-  from {
-    transform: rotateY(0deg);
-  }
   to {
     transform: rotateY(360deg);
   }
