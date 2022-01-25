@@ -153,6 +153,16 @@ p {
 }
 */
 
+#prueba {
+  text-shadow: 9px 9px 18px #da1380, 3px 3px 5px #dd14d3, -3px -3px 5px #dd14d3,
+    -9px -9px 27px #da1380;
+}
+
+#inicio {
+  text-shadow: 9px 9px 18px #5d24e2, 3px 3px 5px #5285f3, -3px -3px 5px #5285f3,
+    -9px -9px 27px #5d24e2;
+}
+
 .button {
   text-shadow: 9px 9px 18px #e22424, 3px 3px 5px #f36552, -3px -3px 5px #f36552,
     -9px -9px 27px #e22424;
